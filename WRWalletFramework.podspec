@@ -10,8 +10,8 @@ Pod::Spec.new do |s|
   s.author       = { "GaiShiDaYingXiong" => "mars_liu_dev@163.com" }
   s.source       = { :git => "https://github.com/marsLiuFei/WRWalletFramework.git", :tag => s.version }
 
-  s.source_files = 'WRWalletFramework/*'
-  s.public_header_files = 'WRWalletFramework/WRWallet.framework/WRWalletManager.h'
+ # s.source_files = 'WRWalletFramework/*'
+#  s.public_header_files = 'WRWalletFramework/WRWallet.framework/WRWalletManager.h'
   
   s.resource  = "WRWalletFramework/Resources.bundle"
   s.ios.vendored_frameworks = 'WRWalletFramework/WRWallet.framework'
